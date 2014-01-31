@@ -1,23 +1,23 @@
 package net.justanotherblog.swipeview;
 
-import java.util.Locale;
-
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.app.NavUtils;
 import android.support.v4.view.ViewPager;
-import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.widget.TextView;
 
-public class MainActivity extends FragmentActivity {
+import java.util.ArrayList;
+import java.util.Locale;
+
+public class MainActivity extends FragmentActivity implements ViewPager.OnPageChangeListener{
 
 	/**
 	 * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -33,8 +33,15 @@ public class MainActivity extends FragmentActivity {
 	 * The {@link ViewPager} that will host the section contents.
 	 */
 	ViewPager mViewPager;
+    ListView listView;
+    View rootView;
 
-	@Override
+    String[] IDevice= {"Model","Manufacturer","Chipset","BaseBand Version","RIL Version","Build Number","Build Fingerprint","OS Version","SDK","Bootloader"};
+    String[] ISystem= {"CPU Architecture","Board","Cores","Clock Speed"," Instruction sets","CPU Features","CPU Governor","Kernel Version","Kernel Architecture","Running","Core 1","Core 2","Core 3","Core 4","CPU Utilizacion","Processes","Graphics","Renderer","Vendor","OpenGL Version"};
+    String[] ITest= {"wdre","wer","Chipset","werewr","RIL Version","erer","ere","OS Version","tht","tyuuj"};
+
+    private int currentPage;
+    @Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
@@ -46,6 +53,9 @@ public class MainActivity extends FragmentActivity {
 		// Set up the ViewPager with the sections adapter.
 		mViewPager = (ViewPager) findViewById(R.id.pager);
 		mViewPager.setAdapter(mSectionsPagerAdapter);
+        mViewPager.setOnPageChangeListener(this);
+
+
 
 	}
 
@@ -56,7 +66,37 @@ public class MainActivity extends FragmentActivity {
 		return true;
 	}
 
-	/**
+    @Override
+    public void onPageScrolled(int i, float v, int i2) {
+
+    }
+
+    @Override
+    public void onPageSelected(int i) {
+currentPage = i;
+        ArrayAdapter<String> adapter;
+        if(currentPage==0){
+            adapter = new ArrayAdapter<String>(MainActivity.this, android.R.layout.simple_list_item_1, android.R.id.text1, SetParamList(IDevice));
+            listView.setAdapter(adapter);
+        }
+        if(currentPage==1){
+
+           adapter = new ArrayAdapter<String>(MainActivity.this, android.R.layout.simple_list_item_1, android.R.id.text1, SetParamList(ISystem));
+           listView.setAdapter(adapter);
+        }
+        if(currentPage==2){
+            adapter = new ArrayAdapter<String>(MainActivity.this, android.R.layout.simple_list_item_1, android.R.id.text1, SetParamList(ITest));
+            listView.setAdapter(adapter);
+        }
+    }
+
+    @Override
+    public void onPageScrollStateChanged(int i) {
+
+    }
+
+
+    /**
 	 * A {@link FragmentPagerAdapter} that returns a fragment corresponding to
 	 * one of the sections/tabs/pages.
 	 */
@@ -75,7 +115,9 @@ public class MainActivity extends FragmentActivity {
 			Bundle args = new Bundle();
 			args.putInt(DummySectionFragment.ARG_SECTION_NUMBER, position + 1);
 			fragment.setArguments(args);
+
 			return fragment;
+
 		}
 
 		@Override
@@ -103,7 +145,7 @@ public class MainActivity extends FragmentActivity {
 	 * A dummy fragment representing a section of the app, but that simply
 	 * displays dummy text.
 	 */
-	public static class DummySectionFragment extends Fragment {
+	public class DummySectionFragment extends Fragment {
 		/**
 		 * The fragment argument representing the section number for this
 		 * fragment.
@@ -118,8 +160,21 @@ public class MainActivity extends FragmentActivity {
 			View rootView = inflater.inflate(R.layout.fragment_main_dummy, container, false);
 			TextView dummyTextView = (TextView) rootView.findViewById(R.id.section_label);
 			dummyTextView.setText(Integer.toString(getArguments().getInt(ARG_SECTION_NUMBER)));
+            listView=(ListView)rootView.findViewById(R.id.listView);
+            ArrayAdapter<String> adapter= new ArrayAdapter<String>(this.getActivity(),android.R.layout.simple_list_item_1,android.R.id.text1,SetParamList(IDevice));
+            listView.setAdapter(adapter);
 			return rootView;
 		}
 	}
+    public ArrayList<String> SetParamList(String[] array){
+        int x=0;
+        ArrayList<String> values= new ArrayList<String>();
+
+        while (x<array.length){
+            values.add(array[x]);
+            x++;
+        }
+        return values;
+    }
 
 }
