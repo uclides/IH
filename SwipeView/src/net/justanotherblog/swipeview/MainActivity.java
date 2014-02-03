@@ -11,6 +11,7 @@ import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ExpandableListView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -33,7 +34,7 @@ public class MainActivity extends FragmentActivity implements ViewPager.OnPageCh
 	 * The {@link ViewPager} that will host the section contents.
 	 */
 	ViewPager mViewPager;
-    ListView listView;
+    ExpandableListView listView;
     View rootView;
 
     String[] IDevice= {"Model","Manufacturer","Chipset","BaseBand Version","RIL Version","Build Number","Build Fingerprint","OS Version","SDK","Bootloader"};
@@ -160,7 +161,7 @@ currentPage = i;
 			View rootView = inflater.inflate(R.layout.fragment_main_dummy, container, false);
 			TextView dummyTextView = (TextView) rootView.findViewById(R.id.section_label);
 			dummyTextView.setText(Integer.toString(getArguments().getInt(ARG_SECTION_NUMBER)));
-            listView=(ListView)rootView.findViewById(R.id.listView);
+            listView=(ExpandableListView)rootView.findViewById(R.id.expandableListView);
             ArrayAdapter<String> adapter= new ArrayAdapter<String>(this.getActivity(),android.R.layout.simple_list_item_1,android.R.id.text1,SetParamList(IDevice));
             listView.setAdapter(adapter);
 			return rootView;
