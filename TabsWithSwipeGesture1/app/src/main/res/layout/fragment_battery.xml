@@ -8,9 +8,9 @@
     <TextView android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Design Movies Screen"
+        android:text="Design Battery"
         android:textSize="20dp"
         android:layout_centerInParent="true"/>
     
 
-</RelativeLayout><!-- From: file:/C:/Users/inv.Desarrollo2/Documents/GitHub/IH/TabsWithSwipeGesture1/app/src/main/res/layout/fragment_movies.xml -->
+</RelativeLayout>

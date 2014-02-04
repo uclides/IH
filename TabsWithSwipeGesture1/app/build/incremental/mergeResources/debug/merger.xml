@@ -29,18 +29,8 @@
                 qualifiers=""
                 type="layout" />
             <file
-                name="fragment_games"
-                path="C:\Users\inv.Desarrollo2\Documents\GitHub\IH\TabsWithSwipeGesture1\app\src\main\res\layout\fragment_games.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="fragment_movies"
-                path="C:\Users\inv.Desarrollo2\Documents\GitHub\IH\TabsWithSwipeGesture1\app\src\main\res\layout\fragment_movies.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="fragment_top_rated"
-                path="C:\Users\inv.Desarrollo2\Documents\GitHub\IH\TabsWithSwipeGesture1\app\src\main\res\layout\fragment_top_rated.xml"
+                name="fragment_device"
+                path="C:\Users\inv.Desarrollo2\Documents\GitHub\IH\TabsWithSwipeGesture1\app\src\main\res\layout\fragment_device.xml"
                 qualifiers=""
                 type="layout" />
             <file
@@ -116,8 +106,19 @@
                     <!-- API 14 theme customizations can go here. -->
                 </style>
             </file>
+            <file
+                name="fragment_memory"
+                path="C:\Users\inv.Desarrollo2\Documents\GitHub\IH\TabsWithSwipeGesture1\app\src\main\res\layout\fragment_memory.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_system"
+                path="C:\Users\inv.Desarrollo2\Documents\GitHub\IH\TabsWithSwipeGesture1\app\src\main\res\layout\fragment_system.xml"
+                qualifiers=""
+                type="layout" />
         </source>
         <source path="C:\Users\inv.Desarrollo2\Documents\GitHub\IH\TabsWithSwipeGesture1\app\build\res\rs\debug" />
+        <source path="C:\Users\inv.Desarrollo2\Documents\GitHub\IH\TabsWithSwipeGesture1\app\build\res\generated\debug" />
     </dataSet>
     <dataSet config="debug" >
         <source path="C:\Users\inv.Desarrollo2\Documents\GitHub\IH\TabsWithSwipeGesture1\app\src\debug\res" />

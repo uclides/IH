@@ -2,15 +2,15 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="#ff8400" >
+    android:orientation="vertical" 
+    android:background="#17df0d">
     
     <TextView android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Design Games Screen"
+        android:text="Design Movies Screen"
         android:textSize="20dp"
         android:layout_centerInParent="true"/>
     
 
-</RelativeLayout>
+</RelativeLayout><!-- From: file:/C:/Users/inv.Desarrollo2/Documents/GitHub/IH/TabsWithSwipeGesture1/app/src/main/res/layout/fragment_system.xml -->

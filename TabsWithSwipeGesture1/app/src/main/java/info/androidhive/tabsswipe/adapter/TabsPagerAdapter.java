@@ -1,8 +1,9 @@
 package info.androidhive.tabsswipe.adapter;
 
-import info.androidhive.tabsswipe.GamesFragment;
-import info.androidhive.tabsswipe.MoviesFragment;
-import info.androidhive.tabsswipe.TopRatedFragment;
+import info.androidhive.tabsswipe.DeviceFragment;
+import info.androidhive.tabsswipe.MemoryFragment;
+import info.androidhive.tabsswipe.SystemFragment;
+
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -19,13 +20,13 @@ public class TabsPagerAdapter extends FragmentPagerAdapter {
 		switch (index) {
 		case 0:
 			// Top Rated fragment activity
-			return new TopRatedFragment();
+			return new MemoryFragment();
 		case 1:
 			// Games fragment activity
-			return new GamesFragment();
+			return new DeviceFragment();
 		case 2:
 			// Movies fragment activity
-			return new MoviesFragment();
+			return new SystemFragment();
 		}
 
 		return null;

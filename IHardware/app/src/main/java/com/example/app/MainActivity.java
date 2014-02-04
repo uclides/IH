@@ -1,5 +1,6 @@
 package com.example.app;
 
+import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
@@ -14,21 +15,18 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.os.Build;
+import android.app.ActionBar;
 
-@TargetApi(Build.VERSION_CODES.HONEYCOMB)
 public class MainActivity extends FragmentActivity implements ActionBar.TabListener {
 
 private ViewPager viewPager;
 private TabsPagerAdapter tabpageadapter;
-private android.app.ActionBar actionBar;
+private ActionBar actionBar;
 // title tabs 
 String [] tabs={"Device","System","Memory","Camera","Battery","Sensors"};
-
+    @TargetApi(Build.VERSION_CODES.ICE_CREAM_SANDWICH)
     public MainActivity() {
     }
-
-
-    @TargetApi(Build.VERSION_CODES.ICE_CREAM_SANDWICH)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,9 +42,8 @@ String [] tabs={"Device","System","Memory","Camera","Battery","Sensors"};
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 
         // add tabs
-        for(String tab_name : tabs){
-            actionBar.addTab(actionBar.newTab().setText(tab_name).setTabListener((android.app.ActionBar.TabListener) this));
-        }
+        for(String tab_name : tabs)
+            actionBar.addTab(actionBar.newTab().setText(tab_name).setTabListener(this));
 
         // view respective tab in viewpager
         viewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener(){
@@ -69,37 +66,19 @@ String [] tabs={"Device","System","Memory","Camera","Battery","Sensors"};
 
     }
 
-    public void onTabSelected(android.app.ActionBar.Tab tab, android.app.FragmentTransaction fragmentTransaction) {
-// on tab selected, show respect fragment
-        viewPager.setCurrentItem(tab.getPosition());
+    @Override
+    public void onTabSelected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
+viewPager.setCurrentItem(tab.getPosition());
     }
 
-
-    public void onTabUnselected(android.app.ActionBar.Tab tab, android.app.FragmentTransaction fragmentTransaction) {
-
-    }
-
-
-    public void onTabReselected(android.app.ActionBar.Tab tab, android.app.FragmentTransaction fragmentTransaction) {
+    @Override
+    public void onTabUnselected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
 
     }
 
+    @Override
+    public void onTabReselected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
 
-
-    /**
-     * A placeholder fragment containing a simple view.
-     */
-    public static class PlaceholderFragment extends Fragment {
-
-        public PlaceholderFragment() {
-        }
-
-        @Override
-        public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_main, container, false);
-            return rootView;
-        }
     }
-
 }
+
