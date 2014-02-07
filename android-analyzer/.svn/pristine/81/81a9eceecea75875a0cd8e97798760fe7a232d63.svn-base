@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      android:versionCode="9"
+      android:versionName="@string/app_version_name" package="org.androidanalyzer">
+	<uses-sdk android:minSdkVersion="3" />
+    <application android:icon="@drawable/logo" android:label="@string/app_name">
+		 <service android:name=".core.AnalyzerCore$RegistryService">
+			 <intent-filter>
+                <action android:name="org.androidanalyzer.core.IPluginRegistry" />
+	         </intent-filter>
+         </service>
+         <activity android:name=".gui.AnalyzerList"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+         </activity>
+
+         <!-- **** CPU Plugin **** -->
+         <receiver android:enabled="true"
+	          android:exported="true"
+	          android:label="cpu plugin receiver"
+	          android:name=".plugins.cpu.BReceiver" >
+	           <intent-filter>
+	                <action android:name="org.androidanalyzer.plugins.discovery" />
+	            </intent-filter>
+	    </receiver>
+	    <service android:name=".plugins.cpu.CPUPlugin" android:process=":aanalyzer_plugins">
+	    	<intent-filter>
+                <action android:name="org.androidanalyzer.plugins.cpu.CPUPlugin"  />
+	         </intent-filter>
+        </service>
+        
+        <!-- **** Memory Plugin **** -->
+        <receiver android:enabled="true"
+	          android:exported="true"
+	          android:label="cpu plugin receiver"
+	          android:name=".plugins.memory.BReceiver" >
+	           <intent-filter>
+	                <action android:name="org.androidanalyzer.plugins.discovery" />
+	            </intent-filter>
+	    </receiver>
+	    <service android:name=".plugins.memory.MemoryPlugin" android:process=":aanalyzer_plugins">
+	    	<intent-filter>												 
+                <action android:name="org.androidanalyzer.plugins.memory.MemoryPlugin"  />
+	         </intent-filter>
+        </service>
+        
+        <!-- **** Location Plugin **** -->
+        <receiver android:enabled="true"
+	          android:exported="true"
+	          android:label="location plugin receiver"
+	          android:name=".plugins.location.BReceiver" >
+	           <intent-filter>
+	                <action android:name="org.androidanalyzer.plugins.discovery" />
+	            </intent-filter>
+	    </receiver>
+	    <service android:name=".plugins.location.LocationPlugin" android:process=":aanalyzer_plugins">
+	    	<intent-filter>												 
+                <action android:name="org.androidanalyzer.plugins.location.LocationPlugin"  />
+	         </intent-filter>
+        </service>
+        
+        <!-- **** Camera Plugin **** -->
+        <receiver android:enabled="true"
+	          android:exported="true"
+	          android:label="camera plugin receiver"
+	          android:name=".plugins.camera.BReceiver" >
+	           <intent-filter>
+	                <action android:name="org.androidanalyzer.plugins.discovery" />
+	            </intent-filter>
+	    </receiver>
+	    <service android:name=".plugins.camera.CameraPlugin" android:process=":aanalyzer_plugins">
+	    	<intent-filter>												 
+                <action android:name="org.androidanalyzer.plugins.camera.CameraPlugin"  />
+	         </intent-filter>
+        </service>
+        
+         <!-- **** API Plugin **** -->
+         <receiver android:enabled="true"
+	          android:exported="true"
+	          android:label="api plugin receiver"
+	          android:name=".plugins.api.BReceiver">
+	           <intent-filter>
+	                <action android:name="org.androidanalyzer.plugins.discovery" />
+	            </intent-filter>
+	    </receiver>
+	    <service android:name=".plugins.api.APIPlugin" android:process=":aanalyzer_plugins">
+	    	<intent-filter>
+                <action android:name="org.androidanalyzer.plugins.api.APIPlugin" />
+	         </intent-filter>
+        </service>
+
+         <!-- **** Display Plugin **** -->
+         <receiver android:enabled="true"
+	          android:exported="true"
+	          android:label="display plugin receiver"
+	          android:name=".plugins.display.BReceiver">
+	           <intent-filter>
+	                <action android:name="org.androidanalyzer.plugins.discovery" />
+	            </intent-filter>
+	    </receiver>
+	    <service android:name=".plugins.display.DisplayPlugin" android:process=":aanalyzer_plugins">
+	    	<intent-filter>
+                <action android:name="org.androidanalyzer.plugins.display.DisplayPlugin" />
+	         </intent-filter>
+        </service>
+		
+		 <!-- **** Sensors Plugin **** -->
+         <receiver android:enabled="true"
+	          android:exported="true"
+	          android:label="sensors plugin receiver"
+	          android:name=".plugins.sensors.BReceiver">
+	           <intent-filter>
+	                <action android:name="org.androidanalyzer.plugins.discovery" />
+	            </intent-filter>
+	    </receiver>
+	    <service android:name=".plugins.sensors.SensorsPlugin" android:process=":aanalyzer_plugins">
+	    	<intent-filter>
+                <action android:name="org.androidanalyzer.plugins.sensors.SensorsPlugin" />
+	         </intent-filter>
+        </service>
+		
+		<!-- **** Radio Interfaces Plugin **** -->
+         <receiver android:enabled="true"
+	          android:exported="true"
+	          android:label="radio interfaces plugin receiver"
+	          android:name=".plugins.radiointerfaces.BReceiver">
+	           <intent-filter>
+	                <action android:name="org.androidanalyzer.plugins.discovery" />
+	            </intent-filter>
+	    </receiver>
+	    <service android:name=".plugins.radiointerfaces.RadioInterfacesPlugin" android:process=":aanalyzer_plugins">
+	    	<intent-filter>
+                <action android:name="org.androidanalyzer.plugins.radiointerfaces.RadioInterfacesPlugin" />
+	         </intent-filter>
+        </service>
+		
+        <!-- **** Keyboard Plugin **** -->
+        <receiver android:enabled="true"
+	          android:exported="true"
+	          android:label="keyboard plugin receiver"
+	          android:name=".plugins.keyboard.BReceiver" >
+	           <intent-filter>
+	                <action android:name="org.androidanalyzer.plugins.discovery" />
+	            </intent-filter>
+	    </receiver>
+	    <service android:name=".plugins.keyboard.KeyboardPlugin" android:process=":aanalyzer_plugins">
+	    	<intent-filter>												 
+                <action android:name="org.androidanalyzer.plugins.keyboard.KeyboardPlugin"  />
+	         </intent-filter>
+        </service>
+        
+		<!-- **** Location Accuracy Plugin **** -->        
+		<receiver android:enabled="true"
+	          android:exported="true"
+	          android:label="location accuracy plugin receiver"
+	          android:name=".plugins.locationaccuracy.BReceiver" >
+	           <intent-filter>
+	                <action android:name="org.androidanalyzer.plugins.discovery" />
+	            </intent-filter>
+	    </receiver>
+		<receiver android:enabled="true"
+	          android:exported="true"
+	          android:label="gps benchmark plugin receiver"
+	          android:name=".plugins.locationaccuracy.GPSBenchmarkBReceiver" >
+	           <intent-filter>
+	                <action android:name="org.androidanalyzer.plugins.locationaccuracy.gpsbenchmark" />
+	            </intent-filter>
+	    </receiver>
+	    <service android:name=".plugins.locationaccuracy.LocationAccuracyPlugin" android:process=":aanalyzer_plugins">
+	    	<intent-filter>												 
+                <action android:name="org.androidanalyzer.plugins.locationaccuracy.LocationAccuracyPlugin"  />
+	         </intent-filter>
+        </service>
+
+        <!-- **** DeviceInfo Plugin **** -->
+        <receiver android:enabled="true"
+	          android:exported="true"
+	          android:label="device info plugin receiver"
+	          android:name=".plugins.device.BReceiver" >
+	           <intent-filter>
+	                <action android:name="org.androidanalyzer.plugins.discovery" />
+	            </intent-filter>
+	    </receiver>
+	    <service android:name=".plugins.device.DeviceInfoPlugin" android:process=":aanalyzer_plugins">
+	    	<intent-filter>												 
+                <action android:name="org.androidanalyzer.plugins.device.DeviceInfoPlugin"  />
+	         </intent-filter>
+        </service>
+        
+        <!-- **** Browser Plugin **** -->
+        <receiver android:enabled="true"
+	          android:exported="true"
+	          android:label="browser plugin receiver"
+	          android:name=".plugins.browser.BReceiver" >
+	           <intent-filter>
+	                <action android:name="org.androidanalyzer.plugins.discovery" />
+	            </intent-filter>
+	    </receiver>
+	    <service android:name=".plugins.browser.BrowserPlugin" android:process=":aanalyzer_plugins">
+	    	<intent-filter>												 
+                <action android:name="org.androidanalyzer.plugins.browser.BrowserPlugin"  />
+	         </intent-filter>
+        </service>
+        		
+		<!-- **** Dummy Plugin - Camera View GUI **** -->
+        <!--
+		<receiver android:enabled="true"
+	          android:exported="true"
+	          android:label="gui camera view plugin receiver"
+	          android:name=".plugins.dummy.gui.BReceiver" >
+	           <intent-filter>
+	                <action android:name="org.androidanalyzer.plugins.discovery" />
+	            </intent-filter>
+	    </receiver>
+		 <receiver android:enabled="true"
+	          android:exported="true"
+	          android:label="gui camera view plugin receiver"
+	          android:name=".plugins.dummy.gui.DummyGUIBReceiver" >
+	           <intent-filter>
+	                <action android:name="org.androidanalyzer.plugins.dummy.guiplugin" />
+	            </intent-filter>
+	    </receiver>
+	    <service android:name=".plugins.dummy.gui.DummyGUIPlugin" android:process=":aanalyzer_plugins">
+	    	<intent-filter>
+                <action android:name="org.androidanalyzer.plugins.dummy.gui.DummyGUIPlugin"  />
+	         </intent-filter>
+        </service>
+		<activity android:name=".plugins.dummy.gui.cameraview.CameraViewActivity"
+			android:label="Camera View">
+		</activity>
+		-->
+
+
+        <activity android:name=".gui.PluginConfiguration"/>
+        <activity android:name=".gui.AboutActivity"/>
+        <activity android:name=".gui.ReportActivity"/>
+        <activity android:name=".gui.SettingsActivity"/>	
+		<activity android:name=".gui.AnalyzerSettings"/>
+		
+	<!--
+		<activity android:name=".plugins.dummy.gui.cameraview.CameraViewActivity"/>	
+	-->
+	
+	</application>
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+	<uses-permission android:name="android.permission.CAMERA"></uses-permission>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+</manifest> 

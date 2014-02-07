@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      android:versionCode="1"
+      android:versionName="1.0" package="org.androidanalyzer">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+         <activity android:name=".gui.AnalyzerStarter"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+         </activity>
+		 <service android:name=".core.AnalyzerCore$RegistryService">
+			 <intent-filter>
+                <action android:name="org.androidanalyzer.core.IPluginRegistry" />
+	         </intent-filter>
+         </service>
+         
+         
+         
+         <!--Dummy Plugin-->
+         <receiver android:enabled="true"
+	          android:exported="true"
+	          android:label="dummy receiver"
+	          android:name=".plugins.dummy.DummyPlugin$BReceiver">
+	           <intent-filter>
+	                <action android:name="org.androidanalyzer.plugins.discovery" />
+	            </intent-filter>
+	    </receiver>
+	    <service android:name=".plugins.dummy.DummyPlugin" >
+	    	<intent-filter>
+                <action android:name="org.androidanalyzer.plugins.dummy.DummyPlugin" />
+	         </intent-filter>
+        </service>
+	    
+    
+	</application>
+
+
+</manifest> 

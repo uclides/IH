@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    
+	<TextView android:id="@+id/endline"  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:layout_marginTop="6dip"
+	    android:layout_marginLeft="6dip"
+	    android:layout_marginBottom="6dip"
+	    android:visibility="gone"
+    />
+   <TextView android:id="@+id/about_version"  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_above="@+id/endline"
+	    android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:layout_marginLeft="6dip"
+	    android:layout_marginRight="6dip"
+	    android:layout_marginBottom="10dip"
+	    android:text="@string/about_version"
+    />
+    
+    <RelativeLayout
+    	android:id="@+id/vendor_layout"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="10dip"
+    	android:layout_marginLeft="6dip"
+    	android:layout_marginRight="6dip"
+    	android:layout_above="@+id/about_version"
+    >
+		<TextView android:id="@+id/about_vendor_label"  
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+		    android:textAppearance="?android:attr/textAppearanceMedium"
+		    android:text="@string/about_vendor_label"
+	    />
+	    
+		<TextView android:id="@+id/about_vendor_name"  
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:textAppearance="?android:attr/textAppearanceMedium"
+		    android:layout_marginLeft="6dip"
+		    android:layout_toRightOf="@+id/about_vendor_label"
+		    android:text="@string/about_vendor_name"
+	    />
+	</RelativeLayout>
+
+	<TextView android:id="@+id/af_url"  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/vendor_layout"
+	    android:textAppearance="?android:attr/textAppearanceMedium" 
+	    android:layout_marginTop="6dip"
+	    android:layout_marginLeft="6dip"
+	    android:layout_marginRight="6dip"
+	    android:text="@string/af_url_text"
+    />
+    
+	<TextView android:id="@+id/aa_url"  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/af_url"
+	    android:textAppearance="?android:attr/textAppearanceMedium" 
+	    android:layout_marginTop="6dip"
+	    android:layout_marginLeft="6dip"
+	    android:layout_marginRight="6dip"
+	    android:text="@string/aa_url_text"
+    />
+
+    <ScrollView
+    	android:id="@+id/about_scroll"
+	    android:layout_marginTop="6dip"
+	    android:layout_marginLeft="6dip"
+	    android:layout_marginRight="6dip"
+	    android:layout_above="@+id/aa_url"
+        android:layout_width="fill_parent"
+        android:fillViewport="true"
+        android:layout_height="fill_parent">
+		<TextView android:id="@+id/about_text"  
+		    android:layout_width="fill_parent" 
+		    android:layout_height="fill_parent"
+		    android:layout_gravity="center_vertical"
+		    android:textAppearance="?android:attr/textAppearanceMedium"
+		    android:text="@string/about_text"
+	    />
+	</ScrollView>
+	
+    
+</RelativeLayout>

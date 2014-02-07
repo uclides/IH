@@ -1,0 +1,7 @@
+# DO NOT CHANGE THE KEYS
+#Default time to wait for plugin connection
+plugin.connection = 3000
+#Default maximum time to wait for plugin analysis completion
+max.time.analysis.completion = 60000
+#Default minimum time to wait for plugin analysis completion
+min.time.analysis.completion = 10000

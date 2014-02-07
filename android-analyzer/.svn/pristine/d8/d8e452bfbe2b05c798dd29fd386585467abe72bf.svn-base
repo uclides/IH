@@ -1,0 +1,55 @@
+﻿{"ROOT":
+ {"History report":
+ {"analyzer.node.input.source":"A",
+  "analyzer.node.comment":"Comments 3",
+  "analyzer.node.value":"2010/06/17/ - Peter Lynn",
+  "analyzer.node.confirmation.level":"U"
+ },
+ "Manufacturer":
+ {"analyzer.node.input.source":"A",
+  "analyzer.node.comment":"Comments 3",
+  "analyzer.node.value":"Samsung",
+  "analyzer.node.confirmation.level":"U"
+ },
+ "Device":
+ {"analyzer.node.input.source":"A",
+  "analyzer.node.comment":"Comments 3",
+  "analyzer.node.value":"SHW-M100S",
+  "analyzer.node.confirmation.level":"U"
+ },
+  "Operator":
+ {"analyzer.node.input.source":"A",
+  "analyzer.node.comment":"Comments 3",
+  "analyzer.node.value":"M-Tel",
+  "analyzer.node.confirmation.level":"U"
+ },
+ "Firmware version":
+ {"analyzer.node.input.source":"A",
+  "analyzer.node.comment":"Comments 3",
+  "analyzer.node.value":"2.1",
+  "analyzer.node.confirmation.level":"U"
+ },
+ "Display":
+  {"analyzer.node.input.source":"M",
+   "analyzer.node.comment":"Comments - n/a",
+   "analyzer.node.confirmation.level":"UC",
+   "Display_0":
+    {"analyzer.node.input.source":"M",
+	 "analyzer.node.comment":"The display is very fancy",
+	 "analyzer.node.confirmation.level":"UC",
+     "Location":
+	  {"analyzer.node.input.source":"A",
+	   "analyzer.node.comment":"Comments 3",
+	   "analyzer.node.value":"front",
+	   "analyzer.node.confirmation.level":"U"
+	   },
+	  "Display technology":
+	  {"analyzer.node.input.source":"A",
+	   "analyzer.node.comment":"Comments 3",
+	   "analyzer.node.value":"oled",
+	   "analyzer.node.confirmation.level":"U"
+	  },
+    }	
+  }
+ }
+}

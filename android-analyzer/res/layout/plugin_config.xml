@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_marginTop="10dip"
+  android:layout_marginBottom="10dip"
+  android:layout_width="wrap_content"
+  android:layout_height="?android:attr/listPreferredItemHeight">
+  <CheckBox
+  	android:id="@+id/plugin_status_checkbox"
+  	android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    
+  	android:layout_alignParentRight="true"
+  	android:layout_centerVertical="true"
+  	android:layout_marginRight="10dip"
+  />
+  <TextView  
+     android:id="@+id/secondLine2"
+
+     android:layout_width="fill_parent"
+     android:layout_height="36dip" 
+     android:layout_marginLeft="10dip"
+     
+     android:layout_toLeftOf="@id/plugin_status_checkbox"
+     android:layout_alignParentBottom="true"
+     
+     android:ellipsize="marquee"
+     android:textAppearance="?android:attr/textAppearanceSmall"
+     android:text="Provides information about Data APIs some really long description"
+	/>
+
+  <TextView
+	android:id="@+id/firstLine2"
+	
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="10dip"
+	   
+	android:layout_toLeftOf="@id/plugin_status_checkbox"
+	android:layout_alignParentRight="true"
+	android:layout_alignParentTop="true"
+	android:layout_above="@id/secondLine2"
+	android:layout_alignWithParentIfMissing="true"
+	           
+	android:gravity="center_vertical"
+	android:textAppearance="?android:attr/textAppearanceLarge"
+	android:text="Data Plugin" />
+</RelativeLayout>

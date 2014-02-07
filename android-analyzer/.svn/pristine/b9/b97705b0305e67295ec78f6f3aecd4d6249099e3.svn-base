@@ -1,0 +1,843 @@
+{"Data": {
+    "analyzer.node.confirmation.level": "TCC",
+    "API": {
+        "analyzer.node.confirmation.level": "TCC",
+        "analyzer.node.value.type": "ValueTypeData",
+        "analyzer.node.input.source": "A",
+        "Google": {
+            "analyzer.node.confirmation.level": "TCC",
+            "analyzer.node.value.type": "ValueTypeData",
+            "analyzer.node.input.source": "A",
+            "com.google.android.maps": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "N",
+                "analyzer.node.value.type": "ValueTypeBoolean",
+                "analyzer.node.input.source": "A"
+            }
+        },
+        "Android API Level": {
+            "analyzer.node.confirmation.level": "TCC",
+            "analyzer.node.value": "7",
+            "analyzer.node.value.type": "ValueTypeInteger",
+            "analyzer.node.input.source": "A"
+        }
+    },
+    "analyzer.node.value.type": "ValueTypeData",
+    "Memory": {
+        "analyzer.node.confirmation.level": "TCC",
+        "Media type": {
+            "analyzer.node.confirmation.level": "TCC",
+            "analyzer.node.value": "microSD",
+            "analyzer.node.value.type": "ValueTypeString",
+            "analyzer.node.input.source": "A"
+        },
+        "analyzer.node.value.type": "ValueTypeData",
+        "analyzer.node.input.source": "A",
+        "RAM": {
+            "analyzer.node.confirmation.level": "TCC",
+            "analyzer.node.value.metric": "K",
+            "analyzer.node.value.type": "ValueTypeInteger",
+            "analyzer.node.input.source": "A",
+            "analyzer.node.value": "230428"
+        },
+        "Internal Storage": {
+            "analyzer.node.confirmation.level": "TCC",
+            "analyzer.node.value.metric": "K",
+            "analyzer.node.value.type": "ValueTypeInteger",
+            "analyzer.node.input.source": "A",
+            "analyzer.node.value": "500736"
+        }
+    },
+    "Sensors": {
+        "Orientation": {
+            "analyzer.node.confirmation.level": "TCC",
+            "analyzer.node.value": "Y",
+            "analyzer.node.value.type": "ValueTypeBoolean",
+            "analyzer.node.input.source": "A"
+        },
+        "Accelerometer": {
+            "analyzer.node.confirmation.level": "TCC",
+            "analyzer.node.value": "Y",
+            "analyzer.node.value.type": "ValueTypeBoolean",
+            "analyzer.node.input.source": "A"
+        },
+        "Temperature": {
+            "analyzer.node.confirmation.level": "TCC",
+            "analyzer.node.value": "Y",
+            "analyzer.node.value.type": "ValueTypeBoolean",
+            "analyzer.node.input.source": "A"
+        },
+        "analyzer.node.confirmation.level": "TCC",
+        "Magnetic field": {
+            "analyzer.node.confirmation.level": "TCC",
+            "analyzer.node.value": "Y",
+            "analyzer.node.value.type": "ValueTypeBoolean",
+            "analyzer.node.input.source": "A"
+        },
+        "analyzer.node.value.type": "ValueTypeData",
+        "Sensor-3": {
+            "analyzer.node.confirmation.level": "TCC",
+            "Maximum range": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "255.0",
+                "analyzer.node.value.type": "ValueTypeDouble",
+                "analyzer.node.input.source": "A"
+            },
+            "Name": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "SFH7743 Proximity sensor",
+                "analyzer.node.value.type": "ValueTypeString",
+                "analyzer.node.input.source": "A"
+            },
+            "analyzer.node.value.type": "ValueTypeData",
+            "Resolution": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "1.0",
+                "analyzer.node.value.type": "ValueTypeDouble",
+                "analyzer.node.input.source": "A"
+            },
+            "Vendor": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "Unknown",
+                "analyzer.node.value.type": "ValueTypeString",
+                "analyzer.node.input.source": "A"
+            },
+            "Type": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "8",
+                "analyzer.node.value.type": "ValueTypeInteger",
+                "analyzer.node.input.source": "A"
+            },
+            "Power": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "1.0",
+                "analyzer.node.value.type": "ValueTypeDouble",
+                "analyzer.node.input.source": "A"
+            },
+            "analyzer.node.input.source": "A",
+            "Version": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "1",
+                "analyzer.node.value.type": "ValueTypeInteger",
+                "analyzer.node.input.source": "A"
+            }
+        },
+        "Sensor-4": {
+            "analyzer.node.confirmation.level": "TCC",
+            "Maximum range": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "360.0",
+                "analyzer.node.value.type": "ValueTypeDouble",
+                "analyzer.node.input.source": "A"
+            },
+            "Name": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "Orientation sensor",
+                "analyzer.node.value.type": "ValueTypeString",
+                "analyzer.node.input.source": "A"
+            },
+            "analyzer.node.value.type": "ValueTypeData",
+            "Resolution": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "1.0",
+                "analyzer.node.value.type": "ValueTypeDouble",
+                "analyzer.node.input.source": "A"
+            },
+            "Vendor": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "Unknown",
+                "analyzer.node.value.type": "ValueTypeString",
+                "analyzer.node.input.source": "A"
+            },
+            "Type": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "3",
+                "analyzer.node.value.type": "ValueTypeInteger",
+                "analyzer.node.input.source": "A"
+            },
+            "Power": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "1.0",
+                "analyzer.node.value.type": "ValueTypeDouble",
+                "analyzer.node.input.source": "A"
+            },
+            "analyzer.node.input.source": "A",
+            "Version": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "1",
+                "analyzer.node.value.type": "ValueTypeInteger",
+                "analyzer.node.input.source": "A"
+            }
+        },
+        "Sensor-0": {
+            "analyzer.node.confirmation.level": "TCC",
+            "Maximum range": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "40.0",
+                "analyzer.node.value.type": "ValueTypeDouble",
+                "analyzer.node.input.source": "A"
+            },
+            "Name": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "LIS331DLH 3-axis Accelerometer",
+                "analyzer.node.value.type": "ValueTypeString",
+                "analyzer.node.input.source": "A"
+            },
+            "analyzer.node.value.type": "ValueTypeData",
+            "Resolution": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "0.00981",
+                "analyzer.node.value.type": "ValueTypeDouble",
+                "analyzer.node.input.source": "A"
+            },
+            "Vendor": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "ST Micro",
+                "analyzer.node.value.type": "ValueTypeString",
+                "analyzer.node.input.source": "A"
+            },
+            "Type": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "1",
+                "analyzer.node.value.type": "ValueTypeInteger",
+                "analyzer.node.input.source": "A"
+            },
+            "Power": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "20.0",
+                "analyzer.node.value.type": "ValueTypeDouble",
+                "analyzer.node.input.source": "A"
+            },
+            "analyzer.node.input.source": "A",
+            "Version": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "1",
+                "analyzer.node.value.type": "ValueTypeInteger",
+                "analyzer.node.input.source": "A"
+            }
+        },
+        "Sensor-5": {
+            "analyzer.node.confirmation.level": "TCC",
+            "Maximum range": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "27000.0",
+                "analyzer.node.value.type": "ValueTypeDouble",
+                "analyzer.node.input.source": "A"
+            },
+            "Name": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "LM3530 Light sensor",
+                "analyzer.node.value.type": "ValueTypeString",
+                "analyzer.node.input.source": "A"
+            },
+            "analyzer.node.value.type": "ValueTypeData",
+            "Resolution": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "1.0",
+                "analyzer.node.value.type": "ValueTypeDouble",
+                "analyzer.node.input.source": "A"
+            },
+            "Vendor": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "Unknown",
+                "analyzer.node.value.type": "ValueTypeString",
+                "analyzer.node.input.source": "A"
+            },
+            "Type": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "5",
+                "analyzer.node.value.type": "ValueTypeInteger",
+                "analyzer.node.input.source": "A"
+            },
+            "Power": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "0.0",
+                "analyzer.node.value.type": "ValueTypeDouble",
+                "analyzer.node.input.source": "A"
+            },
+            "analyzer.node.input.source": "A",
+            "Version": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "1",
+                "analyzer.node.value.type": "ValueTypeInteger",
+                "analyzer.node.input.source": "A"
+            }
+        },
+        "Sensor-1": {
+            "analyzer.node.confirmation.level": "TCC",
+            "Maximum range": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "255.0",
+                "analyzer.node.value.type": "ValueTypeDouble",
+                "analyzer.node.input.source": "A"
+            },
+            "Name": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "AK8973 3-axis Magnetic field sensor",
+                "analyzer.node.value.type": "ValueTypeString",
+                "analyzer.node.input.source": "A"
+            },
+            "analyzer.node.value.type": "ValueTypeData",
+            "Resolution": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "1.0",
+                "analyzer.node.value.type": "ValueTypeDouble",
+                "analyzer.node.input.source": "A"
+            },
+            "Vendor": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "Asahi Kasei",
+                "analyzer.node.value.type": "ValueTypeString",
+                "analyzer.node.input.source": "A"
+            },
+            "Type": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "2",
+                "analyzer.node.value.type": "ValueTypeInteger",
+                "analyzer.node.input.source": "A"
+            },
+            "Power": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "1.0",
+                "analyzer.node.value.type": "ValueTypeDouble",
+                "analyzer.node.input.source": "A"
+            },
+            "analyzer.node.input.source": "A",
+            "Version": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "1",
+                "analyzer.node.value.type": "ValueTypeInteger",
+                "analyzer.node.input.source": "A"
+            }
+        },
+        "Sensor-2": {
+            "analyzer.node.confirmation.level": "TCC",
+            "Maximum range": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "115.0",
+                "analyzer.node.value.type": "ValueTypeDouble",
+                "analyzer.node.input.source": "A"
+            },
+            "Name": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "AK8973 Temperature sensor",
+                "analyzer.node.value.type": "ValueTypeString",
+                "analyzer.node.input.source": "A"
+            },
+            "analyzer.node.value.type": "ValueTypeData",
+            "Resolution": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "1.0",
+                "analyzer.node.value.type": "ValueTypeDouble",
+                "analyzer.node.input.source": "A"
+            },
+            "Vendor": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "Asahi Kasei",
+                "analyzer.node.value.type": "ValueTypeString",
+                "analyzer.node.input.source": "A"
+            },
+            "Type": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "7",
+                "analyzer.node.value.type": "ValueTypeInteger",
+                "analyzer.node.input.source": "A"
+            },
+            "Power": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "1.0",
+                "analyzer.node.value.type": "ValueTypeDouble",
+                "analyzer.node.input.source": "A"
+            },
+            "analyzer.node.input.source": "A",
+            "Version": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "1",
+                "analyzer.node.value.type": "ValueTypeInteger",
+                "analyzer.node.input.source": "A"
+            }
+        },
+        "Proximity": {
+            "analyzer.node.confirmation.level": "TCC",
+            "analyzer.node.value": "Y",
+            "analyzer.node.value.type": "ValueTypeBoolean",
+            "analyzer.node.input.source": "A"
+        },
+        "analyzer.node.input.source": "A",
+        "Light": {
+            "analyzer.node.confirmation.level": "TCC",
+            "analyzer.node.value": "Y",
+            "analyzer.node.value.type": "ValueTypeBoolean",
+            "analyzer.node.input.source": "A"
+        }
+    },
+    "Camera": {
+        "analyzer.node.confirmation.level": "TCC",
+        "analyzer.node.value.type": "ValueTypeData",
+        "analyzer.node.input.source": "A",
+        "Camera-0": {
+            "analyzer.node.confirmation.level": "TCC",
+            "analyzer.node.value.type": "ValueTypeData",
+            "analyzer.node.input.source": "A",
+            "Resolution": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value.metric": "MP",
+                "analyzer.node.value.type": "ValueTypeDouble",
+                "analyzer.node.input.source": "A",
+                "analyzer.node.value": "5.018112"
+            },
+            "Flash": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value.type": "ValueTypeData",
+                "analyzer.node.input.source": "A",
+                "Supported": {
+                    "analyzer.node.confirmation.level": "TCC",
+                    "analyzer.node.value": "Y",
+                    "analyzer.node.value.type": "ValueTypeString",
+                    "analyzer.node.input.source": "A"
+                }
+            },
+            "Video": {
+                "analyzer.node.confirmation.level": "TCC",
+                "Video encoding": {
+                    "analyzer.node.confirmation.level": "TCC",
+                    "analyzer.node.value.type": "ValueTypeData",
+                    "analyzer.node.input.source": "A",
+                    "H.264": {
+                        "analyzer.node.confirmation.level": "TCC",
+                        "Maximum framerate": {
+                            "analyzer.node.confirmation.level": "TCC",
+                            "analyzer.node.value.metric": "fps",
+                            "analyzer.node.value.type": "ValueTypeInteger",
+                            "analyzer.node.input.source": "A",
+                            "analyzer.node.value": "30"
+                        },
+                        "Maximum bitrate": {
+                            "analyzer.node.confirmation.level": "TCC",
+                            "analyzer.node.value.metric": "bps",
+                            "analyzer.node.value.type": "ValueTypeInteger",
+                            "analyzer.node.input.source": "A",
+                            "analyzer.node.value": "8000000"
+                        },
+                        "analyzer.node.value.type": "ValueTypeData",
+                        "analyzer.node.input.source": "A",
+                        "Minimum framerate": {
+                            "analyzer.node.confirmation.level": "TCC",
+                            "analyzer.node.value.metric": "fps",
+                            "analyzer.node.value.type": "ValueTypeInteger",
+                            "analyzer.node.input.source": "A",
+                            "analyzer.node.value": "1"
+                        },
+                        "Minimum bitrate": {
+                            "analyzer.node.confirmation.level": "TCC",
+                            "analyzer.node.value.metric": "bps",
+                            "analyzer.node.value.type": "ValueTypeInteger",
+                            "analyzer.node.input.source": "A",
+                            "analyzer.node.value": "64000"
+                        }
+                    },
+                    "H.263": {
+                        "analyzer.node.confirmation.level": "TCC",
+                        "Maximum framerate": {
+                            "analyzer.node.confirmation.level": "TCC",
+                            "analyzer.node.value.metric": "fps",
+                            "analyzer.node.value.type": "ValueTypeInteger",
+                            "analyzer.node.input.source": "A",
+                            "analyzer.node.value": "30"
+                        },
+                        "Maximum bitrate": {
+                            "analyzer.node.confirmation.level": "TCC",
+                            "analyzer.node.value.metric": "bps",
+                            "analyzer.node.value.type": "ValueTypeInteger",
+                            "analyzer.node.input.source": "A",
+                            "analyzer.node.value": "8000000"
+                        },
+                        "analyzer.node.value.type": "ValueTypeData",
+                        "analyzer.node.input.source": "A",
+                        "Minimum framerate": {
+                            "analyzer.node.confirmation.level": "TCC",
+                            "analyzer.node.value.metric": "fps",
+                            "analyzer.node.value.type": "ValueTypeInteger",
+                            "analyzer.node.input.source": "A",
+                            "analyzer.node.value": "1"
+                        },
+                        "Minimum bitrate": {
+                            "analyzer.node.confirmation.level": "TCC",
+                            "analyzer.node.value.metric": "bps",
+                            "analyzer.node.value.type": "ValueTypeInteger",
+                            "analyzer.node.input.source": "A",
+                            "analyzer.node.value": "64000"
+                        }
+                    },
+                    "MPEG-4 Part 2": {
+                        "analyzer.node.confirmation.level": "TCC",
+                        "Maximum framerate": {
+                            "analyzer.node.confirmation.level": "TCC",
+                            "analyzer.node.value.metric": "fps",
+                            "analyzer.node.value.type": "ValueTypeInteger",
+                            "analyzer.node.input.source": "A",
+                            "analyzer.node.value": "30"
+                        },
+                        "Maximum bitrate": {
+                            "analyzer.node.confirmation.level": "TCC",
+                            "analyzer.node.value.metric": "bps",
+                            "analyzer.node.value.type": "ValueTypeInteger",
+                            "analyzer.node.input.source": "A",
+                            "analyzer.node.value": "8000000"
+                        },
+                        "analyzer.node.value.type": "ValueTypeData",
+                        "analyzer.node.input.source": "A",
+                        "Minimum framerate": {
+                            "analyzer.node.confirmation.level": "TCC",
+                            "analyzer.node.value.metric": "fps",
+                            "analyzer.node.value.type": "ValueTypeInteger",
+                            "analyzer.node.input.source": "A",
+                            "analyzer.node.value": "1"
+                        },
+                        "Minimum bitrate": {
+                            "analyzer.node.confirmation.level": "TCC",
+                            "analyzer.node.value.metric": "bps",
+                            "analyzer.node.value.type": "ValueTypeInteger",
+                            "analyzer.node.input.source": "A",
+                            "analyzer.node.value": "64000"
+                        }
+                    }
+                },
+                "analyzer.node.value.type": "ValueTypeData",
+                "Color Tone": {
+                    "analyzer.node.confirmation.level": "TCC",
+                    "analyzer.node.value": "none,mono,sepia,negative,solarize,red-tint,blue-tint,green-tint",
+                    "analyzer.node.value.type": "ValueTypeString",
+                    "analyzer.node.input.source": "A"
+                },
+                "Formats": {
+                    "analyzer.node.confirmation.level": "TCC",
+                    "analyzer.node.value.type": "ValueTypeData",
+                    "analyzer.node.input.source": "A",
+                    "3GP2": {
+                        "analyzer.node.confirmation.level": "TCC",
+                        "analyzer.node.value": "N",
+                        "analyzer.node.value.type": "ValueTypeString",
+                        "analyzer.node.input.source": "A"
+                    },
+                    "3GPP": {
+                        "analyzer.node.confirmation.level": "TCC",
+                        "analyzer.node.value": "Y",
+                        "analyzer.node.value.type": "ValueTypeString",
+                        "analyzer.node.input.source": "A"
+                    },
+                    "MPEG-4": {
+                        "analyzer.node.confirmation.level": "TCC",
+                        "analyzer.node.value": "Y",
+                        "analyzer.node.value.type": "ValueTypeString",
+                        "analyzer.node.input.source": "A"
+                    }
+                },
+                "Audio encoding": {
+                    "analyzer.node.confirmation.level": "TCC",
+                    "AMR-NB": {
+                        "analyzer.node.confirmation.level": "TCC",
+                        "Maximum frequency": {
+                            "analyzer.node.confirmation.level": "TCC",
+                            "analyzer.node.value.metric": "Hz",
+                            "analyzer.node.value.type": "ValueTypeInteger",
+                            "analyzer.node.input.source": "A",
+                            "analyzer.node.value": "8000"
+                        },
+                        "analyzer.node.value.type": "ValueTypeData",
+                        "Maximum channels": {
+                            "analyzer.node.confirmation.level": "TCC",
+                            "analyzer.node.value.metric": "channels",
+                            "analyzer.node.value.type": "ValueTypeInteger",
+                            "analyzer.node.input.source": "A",
+                            "analyzer.node.value": "1"
+                        },
+                        "Minimum frequency": {
+                            "analyzer.node.confirmation.level": "TCC",
+                            "analyzer.node.value.metric": "Hz",
+                            "analyzer.node.value.type": "ValueTypeInteger",
+                            "analyzer.node.input.source": "A",
+                            "analyzer.node.value": "8000"
+                        },
+                        "Maximum bitrate": {
+                            "analyzer.node.confirmation.level": "TCC",
+                            "analyzer.node.value.metric": "bps",
+                            "analyzer.node.value.type": "ValueTypeInteger",
+                            "analyzer.node.input.source": "A",
+                            "analyzer.node.value": "12200"
+                        },
+                        "analyzer.node.input.source": "A",
+                        "Minimum channels": {
+                            "analyzer.node.confirmation.level": "TCC",
+                            "analyzer.node.value.metric": "channels",
+                            "analyzer.node.value.type": "ValueTypeInteger",
+                            "analyzer.node.input.source": "A",
+                            "analyzer.node.value": "1"
+                        },
+                        "Minimum bitrate": {
+                            "analyzer.node.confirmation.level": "TCC",
+                            "analyzer.node.value.metric": "bps",
+                            "analyzer.node.value.type": "ValueTypeInteger",
+                            "analyzer.node.input.source": "A",
+                            "analyzer.node.value": "5525"
+                        }
+                    },
+                    "aac": {
+                        "analyzer.node.confirmation.level": "TCC",
+                        "Maximum frequency": {
+                            "analyzer.node.confirmation.level": "TCC",
+                            "analyzer.node.value.metric": "Hz",
+                            "analyzer.node.value.type": "ValueTypeInteger",
+                            "analyzer.node.input.source": "A",
+                            "analyzer.node.value": "16000"
+                        },
+                        "analyzer.node.value.type": "ValueTypeData",
+                        "Maximum channels": {
+                            "analyzer.node.confirmation.level": "TCC",
+                            "analyzer.node.value.metric": "channels",
+                            "analyzer.node.value.type": "ValueTypeInteger",
+                            "analyzer.node.input.source": "A",
+                            "analyzer.node.value": "1"
+                        },
+                        "Minimum frequency": {
+                            "analyzer.node.confirmation.level": "TCC",
+                            "analyzer.node.value.metric": "Hz",
+                            "analyzer.node.value.type": "ValueTypeInteger",
+                            "analyzer.node.input.source": "A",
+                            "analyzer.node.value": "16000"
+                        },
+                        "Maximum bitrate": {
+                            "analyzer.node.confirmation.level": "TCC",
+                            "analyzer.node.value.metric": "bps",
+                            "analyzer.node.value.type": "ValueTypeInteger",
+                            "analyzer.node.input.source": "A",
+                            "analyzer.node.value": "96000"
+                        },
+                        "analyzer.node.input.source": "A",
+                        "Minimum channels": {
+                            "analyzer.node.confirmation.level": "TCC",
+                            "analyzer.node.value.metric": "channels",
+                            "analyzer.node.value.type": "ValueTypeInteger",
+                            "analyzer.node.input.source": "A",
+                            "analyzer.node.value": "1"
+                        },
+                        "Minimum bitrate": {
+                            "analyzer.node.confirmation.level": "TCC",
+                            "analyzer.node.value.metric": "bps",
+                            "analyzer.node.value.type": "ValueTypeInteger",
+                            "analyzer.node.input.source": "A",
+                            "analyzer.node.value": "8192"
+                        }
+                    },
+                    "analyzer.node.value.type": "ValueTypeData",
+                    "analyzer.node.input.source": "A"
+                },
+                "White Balance / Brightness": {
+                    "analyzer.node.confirmation.level": "TCC",
+                    "analyzer.node.value": "auto,daylight,fluorescent,cloudy-daylight,incandescent,warm-fluorescent",
+                    "analyzer.node.value.type": "ValueTypeString",
+                    "analyzer.node.input.source": "A"
+                },
+                "analyzer.node.input.source": "A",
+                "Flash / Movie light": {
+                    "analyzer.node.confirmation.level": "TCC",
+                    "analyzer.node.value": "N",
+                    "analyzer.node.value.type": "ValueTypeString",
+                    "analyzer.node.input.source": "A"
+                }
+            },
+            "Image": {
+                "analyzer.node.confirmation.level": "TCC",
+                "Red Eye Reduction": {
+                    "analyzer.node.confirmation.level": "TCC",
+                    "analyzer.node.value": "N",
+                    "analyzer.node.value.type": "ValueTypeString",
+                    "analyzer.node.input.source": "A"
+                },
+                "analyzer.node.value.type": "ValueTypeData",
+                "Format": {
+                    "analyzer.node.confirmation.level": "TCC",
+                    "analyzer.node.value.type": "ValueTypeData",
+                    "analyzer.node.input.source": "A",
+                    "Supported formats": {
+                        "analyzer.node.confirmation.level": "TCC",
+                        "analyzer.node.value": "JPEG",
+                        "analyzer.node.value.type": "ValueTypeString",
+                        "analyzer.node.input.source": "A"
+                    }
+                },
+                "Focus modes": {
+                    "analyzer.node.confirmation.level": "TCC",
+                    "analyzer.node.value": "off,auto,infinity,macro",
+                    "analyzer.node.value.type": "ValueTypeString",
+                    "analyzer.node.input.source": "A"
+                },
+                "Supported resolutions": {
+                    "analyzer.node.confirmation.level": "TCC",
+                    "analyzer.node.value": "1280x960,1600x1200,2048x1536,2592x1936,2592x1456",
+                    "analyzer.node.value.type": "ValueTypeString",
+                    "analyzer.node.input.source": "A"
+                },
+                "Zoom": {
+                    "analyzer.node.confirmation.level": "TCC",
+                    "analyzer.node.value": "Y",
+                    "analyzer.node.value.type": "ValueTypeString",
+                    "analyzer.node.input.source": "A"
+                },
+                "analyzer.node.input.source": "A"
+            }
+        }
+    },
+    "Display": {
+        "analyzer.node.confirmation.level": "TCC",
+        "Display-0": {
+            "analyzer.node.confirmation.level": "TCC",
+            "Touch support": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "FAILED_UNAVAILABLE_API",
+                "analyzer.node.value.type": "ValueTypeString",
+                "analyzer.node.input.source": "A"
+            },
+            "The logical density of the display": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value.metric": "dpi",
+                "analyzer.node.value.type": "ValueTypeInteger",
+                "analyzer.node.input.source": "A",
+                "analyzer.node.value": "1.5"
+            },
+            "analyzer.node.value.type": "ValueTypeData",
+            "Vertical Resolution": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value.metric": "pixels",
+                "analyzer.node.value.type": "ValueTypeInteger",
+                "analyzer.node.input.source": "A",
+                "analyzer.node.value": "96.0"
+            },
+            "Horizontal Resolution": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value.metric": "pixels",
+                "analyzer.node.value.type": "ValueTypeInteger",
+                "analyzer.node.input.source": "A",
+                "analyzer.node.value": "96.0"
+            },
+            "Refresh rate": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value.metric": "fps",
+                "analyzer.node.value.type": "ValueTypeDouble",
+                "analyzer.node.input.source": "A",
+                "analyzer.node.value": "68.0"
+            },
+            "Location": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "FAILED_UNAVAILABLE_API",
+                "analyzer.node.value.type": "ValueTypeString",
+                "analyzer.node.input.source": "A"
+            },
+            "analyzer.node.input.source": "A",
+            "Color depth": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value.metric": "bits",
+                "analyzer.node.value.type": "ValueTypeString",
+                "analyzer.node.input.source": "A",
+                "analyzer.node.value": "FAILED_UNAVAILABLE_API"
+            },
+            "Size": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value.metric": "inch",
+                "analyzer.node.value.type": "ValueTypeDouble",
+                "analyzer.node.input.source": "A",
+                "analyzer.node.value": "10.2"
+            }
+        },
+        "analyzer.node.value.type": "ValueTypeData",
+        "analyzer.node.input.source": "A"
+    },
+    "Location": {
+        "analyzer.node.confirmation.level": "TCC",
+        "analyzer.node.value.type": "ValueTypeData",
+        "analyzer.node.input.source": "A",
+        "GPS": {
+            "analyzer.node.confirmation.level": "TCC",
+            "analyzer.node.value.type": "ValueTypeData",
+            "analyzer.node.input.source": "A",
+            "A-GPS support": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "Y",
+                "analyzer.node.value.type": "ValueTypeString",
+                "analyzer.node.input.source": "A"
+            },
+            "Supported": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "Y",
+                "analyzer.node.value.type": "ValueTypeBoolean",
+                "analyzer.node.input.source": "A"
+            }
+        },
+        "Network based": {
+            "analyzer.node.confirmation.level": "TCC",
+            "analyzer.node.value": "Y",
+            "analyzer.node.value.type": "ValueTypeString",
+            "analyzer.node.input.source": "A"
+        }
+    },
+    "analyzer.node.input.source": "A",
+    "CPU": {
+        "analyzer.node.confirmation.level": "TCC",
+        "Name": {
+            "analyzer.node.confirmation.level": "TCC",
+            "analyzer.node.value": "ARMv7 Processor rev 3 (v7l)",
+            "analyzer.node.value.type": "ValueTypeString",
+            "analyzer.node.input.source": "A"
+        },
+        "analyzer.node.value.type": "ValueTypeData",
+        "analyzer.node.input.source": "A",
+        "Manufacturer": {
+            "analyzer.node.confirmation.level": "TCC",
+            "analyzer.node.value": "ARM Limited",
+            "analyzer.node.value.type": "ValueTypeString",
+            "analyzer.node.input.source": "A"
+        },
+        "Operational Frequency": {
+            "analyzer.node.confirmation.level": "TCC",
+            "analyzer.node.value.metric": "MHz",
+            "analyzer.node.value.type": "ValueTypeDouble",
+            "analyzer.node.input.source": "A",
+            "analyzer.node.value": "550.0"
+        },
+        "Instruction Set": {
+            "analyzer.node.confirmation.level": "TCC",
+            "analyzer.node.value": "armv7l",
+            "analyzer.node.value.type": "ValueTypeString",
+            "analyzer.node.input.source": "A"
+        }
+    },
+    "Radio Interfaces": {
+        "analyzer.node.confirmation.level": "TCC",
+        "analyzer.node.value.type": "ValueTypeData",
+        "analyzer.node.input.source": "A",
+        "Current Network": {
+            "analyzer.node.confirmation.level": "TCC",
+            "analyzer.node.value.type": "ValueTypeData",
+            "analyzer.node.input.source": "A",
+            "Type": {
+                "analyzer.node.confirmation.level": "TCC",
+                "analyzer.node.value": "UMTS",
+                "analyzer.node.value.type": "ValueTypeString",
+                "analyzer.node.input.source": "A"
+            }
+        },
+        "Phone Type": {
+            "analyzer.node.confirmation.level": "TCC",
+            "analyzer.node.value": "CDMA",
+            "analyzer.node.value.type": "ValueTypeString",
+            "analyzer.node.input.source": "A"
+        },
+        "Supported": {
+            "analyzer.node.confirmation.level": "TCC",
+            "analyzer.node.value": "Y",
+            "analyzer.node.value.type": "ValueTypeBoolean",
+            "analyzer.node.input.source": "A"
+        }
+    },
+    "analyzer.node.comment": ""
+}}

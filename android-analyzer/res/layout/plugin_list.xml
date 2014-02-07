@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_marginTop="10dip"
+  android:layout_marginBottom="10dip"
+  android:layout_width="wrap_content"
+  android:layout_height="?android:attr/listPreferredItemHeight">
+  <ImageView
+  	android:id="@+id/plugin_status_icon"
+  	android:src="@drawable/ok_icon_3"
+  	android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    
+  	android:layout_alignParentRight="true"
+  	android:layout_marginRight="10dip"
+  />
+  <TextView  
+     android:id="@+id/secondLine"
+
+     android:layout_width="fill_parent"
+     android:layout_height="26dip" 
+     android:layout_marginLeft="10dip"
+     
+     android:layout_toLeftOf="@id/plugin_status_icon"
+     android:layout_alignParentBottom="true"
+     
+     android:singleLine="true"
+     android:ellipsize="marquee"
+     android:textAppearance="?android:attr/textAppearanceSmall"
+     android:text="Last run 30 May 2010 at 14:34"
+	/>
+
+  <TextView
+	android:id="@+id/firstLine"
+	
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="10dip"
+	   
+	android:layout_toLeftOf="@id/plugin_status_icon"
+	android:layout_alignParentRight="true"
+	android:layout_alignParentTop="true"
+	android:layout_above="@id/secondLine"
+	android:layout_alignWithParentIfMissing="true"
+	           
+	android:gravity="center_vertical"
+	android:textAppearance="?android:attr/textAppearanceLarge"
+	android:text="Data Plugin" />
+</RelativeLayout>

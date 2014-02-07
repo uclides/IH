@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<include android:id="@+id/button_panel" layout="@layout/button_panel"/>
+	<RelativeLayout
+		android:id="@+id/settings_panel"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_above="@+id/button_panel">
+		<CheckBox android:id="@+id/Debug"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Debug enabled"
+	        android:layout_marginLeft="10dip" 
+		/>
+		<TextView
+	        android:id="@+id/HostAddress"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/Debug"
+	        android:text="Host address:"
+	        android:layout_marginLeft="10dip" 
+		/>
+		<Button
+			android:id="@+id/test_link_btn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/test_link_txt"
+			android:layout_below="@+id/HostAddress"
+			android:layout_alignParentRight="true"
+			android:layout_marginRight="10dip"
+			android:minEms="4"
+		/>
+		<EditText android:id ="@+id/Host"
+		 android:hint="Host"
+		 android:layout_below="@+id/HostAddress"
+		 android:layout_toLeftOf="@+id/test_link_btn"
+		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+	     android:layout_marginLeft="10dip" 
+	     android:layout_marginRight="10dip" 
+	     android:singleLine="true"
+		/>
+		<TextView
+	        android:id="@+id/UserUIDLabel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/Host"
+	        android:text="User UID:"
+	        android:layout_marginLeft="10dip" 
+		/>
+		<EditText android:id ="@+id/UserUID"
+		 android:hint="User UID"
+		 android:layout_below="@+id/UserUIDLabel"
+		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+	     android:layout_marginLeft="10dip" 
+	     android:layout_marginRight="10dip" 
+	     android:singleLine="true"
+		/>
+	</RelativeLayout>		
+</RelativeLayout>
