@@ -1,4 +1,4 @@
-<!-- From: file:/C:/Users/Uclides/Documents/GitHub/SwipeView/app/src/main/AndroidManifest.xml --><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="net.justanotherblog.swipeview">
+<!-- From: file:/C:/Users/inv.Desarrollo2/Documents/GitHub/IH/SwipeView2/app/src/main/AndroidManifest.xml --><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="net.justanotherblog.swipeview">
 
     <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="17"/>
 

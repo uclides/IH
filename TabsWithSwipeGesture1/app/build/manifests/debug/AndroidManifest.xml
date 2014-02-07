@@ -1,4 +1,4 @@
-<!-- From: file:/C:/Users/Uclides/Documents/GitHub/TabsWithSwipeGesture1/app/src/main/AndroidManifest.xml --><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="info.androidhive.tabsswipe">
+<!-- From: file:/C:/Users/inv.Desarrollo2/Documents/GitHub/IH/TabsWithSwipeGesture1/app/src/main/AndroidManifest.xml --><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="info.androidhive.tabsswipe">
 
     <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="17"/>
 

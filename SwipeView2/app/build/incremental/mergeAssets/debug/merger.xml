@@ -2,10 +2,10 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="C:\Users\Uclides\Documents\GitHub\SwipeView\app\src\main\assets" />
+        <source path="C:\Users\inv.Desarrollo2\Documents\GitHub\IH\SwipeView2\app\src\main\assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="C:\Users\Uclides\Documents\GitHub\SwipeView\app\src\debug\assets" />
+        <source path="C:\Users\inv.Desarrollo2\Documents\GitHub\IH\SwipeView2\app\src\debug\assets" />
     </dataSet>
 
 </merger>

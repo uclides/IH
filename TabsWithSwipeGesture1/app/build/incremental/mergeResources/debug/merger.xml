@@ -2,54 +2,44 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="C:\Users\Uclides\Documents\GitHub\TabsWithSwipeGesture1\app\src\main\res" >
+        <source path="C:\Users\inv.Desarrollo2\Documents\GitHub\IH\TabsWithSwipeGesture1\app\src\main\res" >
             <file
                 name="ic_launcher"
-                path="C:\Users\Uclides\Documents\GitHub\TabsWithSwipeGesture1\app\src\main\res\drawable-hdpi\ic_launcher.png"
+                path="C:\Users\inv.Desarrollo2\Documents\GitHub\IH\TabsWithSwipeGesture1\app\src\main\res\drawable-hdpi\ic_launcher.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="C:\Users\Uclides\Documents\GitHub\TabsWithSwipeGesture1\app\src\main\res\drawable-mdpi\ic_launcher.png"
+                path="C:\Users\inv.Desarrollo2\Documents\GitHub\IH\TabsWithSwipeGesture1\app\src\main\res\drawable-mdpi\ic_launcher.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="C:\Users\Uclides\Documents\GitHub\TabsWithSwipeGesture1\app\src\main\res\drawable-xhdpi\ic_launcher.png"
+                path="C:\Users\inv.Desarrollo2\Documents\GitHub\IH\TabsWithSwipeGesture1\app\src\main\res\drawable-xhdpi\ic_launcher.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="C:\Users\Uclides\Documents\GitHub\TabsWithSwipeGesture1\app\src\main\res\drawable-xxhdpi\ic_launcher.png"
+                path="C:\Users\inv.Desarrollo2\Documents\GitHub\IH\TabsWithSwipeGesture1\app\src\main\res\drawable-xxhdpi\ic_launcher.png"
                 qualifiers="xxhdpi"
                 type="drawable" />
             <file
                 name="activity_main"
-                path="C:\Users\Uclides\Documents\GitHub\TabsWithSwipeGesture1\app\src\main\res\layout\activity_main.xml"
+                path="C:\Users\inv.Desarrollo2\Documents\GitHub\IH\TabsWithSwipeGesture1\app\src\main\res\layout\activity_main.xml"
                 qualifiers=""
                 type="layout" />
             <file
-                name="fragment_games"
-                path="C:\Users\Uclides\Documents\GitHub\TabsWithSwipeGesture1\app\src\main\res\layout\fragment_games.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="fragment_movies"
-                path="C:\Users\Uclides\Documents\GitHub\TabsWithSwipeGesture1\app\src\main\res\layout\fragment_movies.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="fragment_top_rated"
-                path="C:\Users\Uclides\Documents\GitHub\TabsWithSwipeGesture1\app\src\main\res\layout\fragment_top_rated.xml"
+                name="fragment_device"
+                path="C:\Users\inv.Desarrollo2\Documents\GitHub\IH\TabsWithSwipeGesture1\app\src\main\res\layout\fragment_device.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="main"
-                path="C:\Users\Uclides\Documents\GitHub\TabsWithSwipeGesture1\app\src\main\res\menu\main.xml"
+                path="C:\Users\inv.Desarrollo2\Documents\GitHub\IH\TabsWithSwipeGesture1\app\src\main\res\menu\main.xml"
                 qualifiers=""
                 type="menu" />
             <file
-                path="C:\Users\Uclides\Documents\GitHub\TabsWithSwipeGesture1\app\src\main\res\values\dimens.xml"
+                path="C:\Users\inv.Desarrollo2\Documents\GitHub\IH\TabsWithSwipeGesture1\app\src\main\res\values\dimens.xml"
                 qualifiers="" >
                 <dimen name="activity_horizontal_margin" >16dp
                 </dimen>
@@ -57,7 +47,7 @@
                 </dimen>
             </file>
             <file
-                path="C:\Users\Uclides\Documents\GitHub\TabsWithSwipeGesture1\app\src\main\res\values\strings.xml"
+                path="C:\Users\inv.Desarrollo2\Documents\GitHub\IH\TabsWithSwipeGesture1\app\src\main\res\values\strings.xml"
                 qualifiers="" >
                 <string name="action_settings" >Settings
                 </string>
@@ -67,7 +57,7 @@
                 </string>
             </file>
             <file
-                path="C:\Users\Uclides\Documents\GitHub\TabsWithSwipeGesture1\app\src\main\res\values\styles.xml"
+                path="C:\Users\inv.Desarrollo2\Documents\GitHub\IH\TabsWithSwipeGesture1\app\src\main\res\values\styles.xml"
                 qualifiers="" >
 
                 <style
@@ -89,13 +79,13 @@
                 </style>
             </file>
             <file
-                path="C:\Users\Uclides\Documents\GitHub\TabsWithSwipeGesture1\app\src\main\res\values-sw720dp-land\dimens.xml"
+                path="C:\Users\inv.Desarrollo2\Documents\GitHub\IH\TabsWithSwipeGesture1\app\src\main\res\values-sw720dp-land\dimens.xml"
                 qualifiers="sw720dp-land" >
                 <dimen name="activity_horizontal_margin" >128dp
                 </dimen>
             </file>
             <file
-                path="C:\Users\Uclides\Documents\GitHub\TabsWithSwipeGesture1\app\src\main\res\values-v11\styles.xml"
+                path="C:\Users\inv.Desarrollo2\Documents\GitHub\IH\TabsWithSwipeGesture1\app\src\main\res\values-v11\styles.xml"
                 qualifiers="v11" >
 
                 <style
@@ -106,7 +96,7 @@
                 </style>
             </file>
             <file
-                path="C:\Users\Uclides\Documents\GitHub\TabsWithSwipeGesture1\app\src\main\res\values-v14\styles.xml"
+                path="C:\Users\inv.Desarrollo2\Documents\GitHub\IH\TabsWithSwipeGesture1\app\src\main\res\values-v14\styles.xml"
                 qualifiers="v14" >
 
                 <style
@@ -116,11 +106,22 @@
                     <!-- API 14 theme customizations can go here. -->
                 </style>
             </file>
+            <file
+                name="fragment_memory"
+                path="C:\Users\inv.Desarrollo2\Documents\GitHub\IH\TabsWithSwipeGesture1\app\src\main\res\layout\fragment_memory.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_system"
+                path="C:\Users\inv.Desarrollo2\Documents\GitHub\IH\TabsWithSwipeGesture1\app\src\main\res\layout\fragment_system.xml"
+                qualifiers=""
+                type="layout" />
         </source>
-        <source path="C:\Users\Uclides\Documents\GitHub\TabsWithSwipeGesture1\app\build\res\rs\debug" />
+        <source path="C:\Users\inv.Desarrollo2\Documents\GitHub\IH\TabsWithSwipeGesture1\app\build\res\rs\debug" />
+        <source path="C:\Users\inv.Desarrollo2\Documents\GitHub\IH\TabsWithSwipeGesture1\app\build\res\generated\debug" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="C:\Users\Uclides\Documents\GitHub\TabsWithSwipeGesture1\app\src\debug\res" />
+        <source path="C:\Users\inv.Desarrollo2\Documents\GitHub\IH\TabsWithSwipeGesture1\app\src\debug\res" />
     </dataSet>
 
 </merger>

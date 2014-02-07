@@ -18,7 +18,7 @@ public class MainActivity extends FragmentActivity implements
 	private TabsPagerAdapter mAdapter;
 	private ActionBar actionBar;
 	// Tab titles
-	private String[] tabs = { "Top Rated", "Games", "Movies" };
+	private String[] tabs = { "Device", "System", "Memory" };
 
 	@TargetApi(Build.VERSION_CODES.ICE_CREAM_SANDWICH)
     @Override
